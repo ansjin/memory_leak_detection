@@ -24,7 +24,7 @@ Read More in our paper: https://link.springer.com/chapter/10.1007/978-3-030-7635
 
 Architecture of Precog: 
 <p align="center">
-<img src="https://github.com/ansjin/memory_leak_detection/blob/master/docs/precog.png"></img>
+<img src="https://github.com/ansjin/memory_leak_detection/blob/master/docs/Precog.png"></img>
 </p> 
 
 # Usecase Example
@@ -53,20 +53,20 @@ p1.predict(dataset.mem_util_percent)
  
  Example of Memory leak Detection using linear Polynomial Fitting : 
  
- ![Polynomial Fitting on the sample data](./example/images/example_polyfit.png)
+ ![Polynomial Fitting on the sample data](./docs/example_polyfit.png)
  
  
   Example of Memory leak Detection using Change points : 
  
- ![Using Change Point Detection on the sample data](./example/images/example_change_point.png)
+ ![Using Change Point Detection on the sample data](./docs/example_change_point.png)
  
    Example of Memory leak Detection using Precog : 
  
- ![Using Change Point Detection on the sample data](./example/images/precog_perf.png)
+ ![Using Change Point Detection on the sample data](./docs/precog_perf.png)
  
     Example of Memory leak Detection using Precog Onnline : 
  
- ![Using Change Point Detection on the sample data](./example/images/precog_perf_1.png)
+ ![Using Change Point Detection on the sample data](./docs/precog_perf_1.png)
 
 # Testing the algorithms
 (do check the base path in test.py)
