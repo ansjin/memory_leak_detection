@@ -21,6 +21,7 @@ without having any internal application knowledge we introduce multiple algorith
 
 
 Read More in our paper: https://link.springer.com/chapter/10.1007/978-3-030-76352-7_21
+For other algorithms: https://arxiv.org/abs/2106.08938
 
 Architecture of Precog: 
 <p align="center">
@@ -118,6 +119,14 @@ abstract="A memory leak in an application deployed on the cloud can affect the a
 isbn="978-3-030-76352-7"
 }
 
+@misc{jindal2021memory,
+      title={Memory Leak Detection Algorithms in the Cloud-based Infrastructure}, 
+      author={Anshul Jindal and Paul Staab and Pooja Kulkarni and Jorge Cardoso and Michael Gerndt and Vladimir Podolskiy},
+      year={2021},
+      eprint={2106.08938},
+      archivePrefix={arXiv},
+      primaryClass={cs.DC}
+}
 ```
 
 ## Help and Contribution
