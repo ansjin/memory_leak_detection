@@ -1,0 +1,37 @@
+# YAML 1.2
+---
+abstract: |
+    "A memory leak in an application deployed on the cloud can affect the availability and reliability of the application. Therefore, to identify and ultimately resolve it quickly is highly important. However, in the production environment running on the cloud, memory leak detection is a challenge without the knowledge of the application or its internal object allocation details.
+    
+    This paper addresses this challenge of online detection of memory leaks in cloud-based infrastructure without having any internal application knowledge by introducing a novel machine learning based algorithm Precog. This algorithm solely uses one metric i.e. the system’s memory utilization on which the application is deployed for the detection of a memory leak. The developed algorithm’s accuracy was tested on 60 virtual machines manually labeled memory utilization data provided by our industry partner Huawei Munich Research Center and it was found that the proposed algorithm achieves the accuracy score of 85% with less than half a second prediction time per virtual machine."
+authors: 
+  -
+    affiliation: "Technical University of Munich"
+    family-names: Jindal
+    given-names: Anshul
+  -
+    affiliation: "Huawei Munich Research Center, Munich Germany"
+    family-names: Staab
+    given-names: Paul
+  -
+    affiliation: "Huawei Munich Research Center, Munich Germany"
+    family-names: Cardoso
+    given-names: Jorge
+  -
+    affiliation: "Technical University of Munich"
+    family-names: Gerndt
+    given-names: Michael
+  -
+    affiliation: "Technical University of Munich"
+    family-names: Podolskiy
+    given-names: Vladimir
+cff-version: "1.1.0"
+date-released: 2021-05-30
+doi: "10.1007/978-3-030-76352-7_21"
+keywords: 
+  - "memory leak"
+  - "Cloud computing"
+message: "If you use this software, please cite it using these metadata."
+repository-code: "https://github.com/ansjin/memory_leak_detection"
+title: "https://link.springer.com/chapter/10.1007/978-3-030-76352-7_21"
+...
